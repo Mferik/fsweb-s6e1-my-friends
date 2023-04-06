@@ -1,4 +1,8 @@
 import React from 'react'
+import Search from './Search'
+import FriendsList from './FriendsList'
+import PetsList from './PetsList'
+
 
 export default function App() {
 
@@ -6,7 +10,9 @@ export default function App() {
 
   return (
     <div className='app-friends container'>
-      {/* 👉 Buraya hangi componentler gelecek? */}
+      <Search/>
+      <FriendsList/>
+      
     </div>
   )
 }

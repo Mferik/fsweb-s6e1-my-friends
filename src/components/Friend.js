@@ -1,4 +1,5 @@
 import React from 'react'
+import PetsList from './PetsList'
 
 export default function Friend() {
   /* 👉 önce başka bir compenenti bitirmen lazım? */
@@ -20,7 +21,7 @@ export default function Friend() {
         </div>
 
         <div>
-          {/* 👉 Tasarıma göre buraya hangi component gelmeli? */}
+        <PetsList/>
         </div>
       </div>
     </div>
