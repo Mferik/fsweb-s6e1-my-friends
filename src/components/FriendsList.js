@@ -11,7 +11,12 @@ export default function FriendsList({ friendsData, setFriendsData, search }) {
   return (
     <div className="list-friends container">
       {filteredFriends.map((friend) => (
-        <Friend key={friend.id} friend={friend} setFriendsData = {setFriendsData} friendsData={friendsData} />
+        <Friend
+          key={friend.id}
+          friend={friend}
+          setFriendsData={setFriendsData}
+          friendsData={friendsData}
+        />
       ))}
     </div>
   );
