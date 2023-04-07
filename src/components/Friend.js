@@ -2,10 +2,6 @@ import React from "react";
 import PetsList from "./PetsList";
 import { FaExchangeAlt } from "react-icons/fa";
 export default function Friend({ friend, setFriendsData, friendsData }) {
-  /* 👉 önce başka bir compenenti bitirmen lazım? */
-
-  /* 👉 Ya friend'leri yoksa? bunu unutmayalım. Bir şey yapmak lazım*/
-
   const handleMarriedChange = () => {
     const updatedMarried = { ...friend, married: !friend.married };
     const updatedFriendsData = friendsData.map((f) =>
@@ -37,7 +33,7 @@ export default function Friend({ friend, setFriendsData, friendsData }) {
         </div>
 
         <div>
-          <PetsList pet={friend.pets} />
+          <PetsList pets={friend.pets} />
         </div>
       </div>
     </div>

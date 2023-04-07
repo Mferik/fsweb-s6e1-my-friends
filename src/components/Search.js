@@ -7,8 +7,6 @@ export default function Search({ search, setSearch }) {
     console.log(search);
   };
 
-  /* 👉 Buraya props lazım mı? bir de bir yardımcı function yazsak iyi olur mu? */
-
   return (
     <div className="search-friends container">
       <input
