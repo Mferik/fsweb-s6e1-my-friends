@@ -14,7 +14,7 @@ export default function Friend({ friend, setFriendsData, friendsData }) {
     <div className="friend-friends container">
       <div className="friend-info">
         <div>
-          <h3>Adı: {friend.name} </h3>
+          <h3>Adı: MFE </h3>
           <p>Yaş: {friend.age} </p>
           <p>
             Evli mi?: {friend.married ? "Evet" : "Hayır"}{" "}
